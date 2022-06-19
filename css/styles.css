@@ -11,6 +11,7 @@ h1 {
 
 #title {
   background-color: #ff4c68;
+  /* height: inherit; */
 }
 
 .container-fluid {
@@ -37,8 +38,26 @@ h1 {
 }
 
 /* Title */
-
 .rotate-img {
-  transform: translate(50%, 20%) rotate(25deg);
+  transform: translate(30%, 20%) rotate(25deg);
   width: 60%;
+}
+
+/* Features */
+.icon-features {
+  color: #cf8172;
+  font-size: 4rem;
+}
+
+#features {
+  margin: 8rem auto;
+}
+
+.heading-features {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.paragraf-features {
+  color: #bfafbf;
 }
