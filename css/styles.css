@@ -45,7 +45,7 @@ h1 {
 
 /* Features */
 .icon-features {
-  color: #cf8172;
+  color: #ef8172;
   font-size: 4rem;
 }
 
@@ -59,10 +59,32 @@ h1 {
 }
 
 .paragraf-features {
-  color: #bfafbf;
+  color: #8f8f8f;
 }
 
 .icon-features:hover {
   color: #ff4c68;
   transition: 250ms ease-in-out;
+}
+
+/* Testimonials */
+#testimonials {
+  background-color: #ef8172;
+  padding: 15% 0;
+}
+
+#testimonials h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+.testimonial-image {
+  border-radius: 50%;
+  width: 10%;
+}
+
+#press {
+  background-color: #ef8172;
 }
