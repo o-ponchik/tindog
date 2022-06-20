@@ -141,3 +141,17 @@ h1 {
   font-size: 1.3rem;
   font-weight: 700;
 }
+
+/* Call to Action */
+#cta {
+  background-color: #ff4c68;
+  color: #fff;
+  padding: 7% 15%;
+  text-align: center;
+}
+
+#cta h3 {
+  font-size: 3rem;
+  font-weight: 900;
+  margin-bottom: 4rem;
+}
