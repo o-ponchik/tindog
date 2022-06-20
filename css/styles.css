@@ -58,8 +58,13 @@ h1 {
     transform: none;
     position: static;
   }
+
   .title-content {
     text-align: center;
+  }
+
+  .title-content button {
+    margin-bottom: 3rem;
   }
 }
 
@@ -122,17 +127,22 @@ h1 {
 }
 
 /* Pricing */
+#pricing {
+  margin: 10% auto;
+}
+
 .pricing-heading {
   text-align: center;
-  margin: 10% auto;
+  margin-bottom: 3rem;
 }
 
 .pricing-heading h2 {
   margin-bottom: 1rem;
+  color: #ff4c68;
 }
 
 #pricing h2 {
-  font-size: 2.2rem;
+  font-size: 3rem;
   font-weight: 800;
 }
 
@@ -146,12 +156,35 @@ h1 {
 #cta {
   background-color: #ff4c68;
   color: #fff;
-  padding: 7% 15%;
+  padding: 10% 15%;
   text-align: center;
 }
 
 #cta h3 {
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: 900;
   margin-bottom: 4rem;
+  line-height: 1.5;
+}
+
+/* Footer */
+#footer {
+  background-color: #fff;
+  margin: 7% auto 2%;
+}
+
+.footer-icon {
+  color: black;
+  font-size: 2rem;
+  margin: 0 1.5rem 3rem;
+}
+
+.footer-icon:hover {
+  color: #ef8172;
+  transition: 250ms ease-in-out;
+}
+
+#footer p {
+  font-weight: 500;
+  color: #8f8f8f;
 }
