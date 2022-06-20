@@ -98,7 +98,14 @@ h1 {
   margin: auto 12%;
 }
 
-/* .testimonials-item {
-  width: 75%;
-  margin: 0 auto;
-} */
+/* Pricing */
+#pricing h2 {
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+#pricing h3 {
+  margin: 0;
+  font-size: 2rem;
+  font-weight: 400;
+}
