@@ -2,6 +2,15 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+}
+
 h1 {
   font-size: 3.5rem;
   line-height: 1.5;
@@ -11,11 +20,14 @@ h1 {
 
 #title {
   background-color: #ff4c68;
-  /* height: 10%; */
+}
+
+#title .container-fluid {
+  padding: 3% 15% 3%;
 }
 
 .container-fluid {
-  padding: 3% 15% 0%;
+  padding: 7% 15%;
 }
 
 /* Navigation bar */
@@ -75,7 +87,6 @@ h1 {
 }
 
 #features {
-  padding: 10% 15%;
   background-color: white;
   position: relative;
   z-index: 1;
@@ -127,9 +138,6 @@ h1 {
 }
 
 /* Pricing */
-#pricing {
-  margin: 10% auto;
-}
 
 .pricing-heading {
   text-align: center;
@@ -156,7 +164,6 @@ h1 {
 #cta {
   background-color: #ff4c68;
   color: #fff;
-  padding: 10% 15%;
   text-align: center;
 }
 
@@ -168,10 +175,6 @@ h1 {
 }
 
 /* Footer */
-#footer {
-  background-color: #fff;
-  margin: 7% auto 2%;
-}
 
 .footer-icon {
   color: black;
